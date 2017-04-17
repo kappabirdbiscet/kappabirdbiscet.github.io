@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <title>Kappa Bird Beta</title>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="author" content="Egor Prohorov" />
+   <meta name="description" content="play kappa bird. a remake of popular game flappy bird using just html/css/js" />
+   <meta name="keywords" content="kappapride" />
+   <meta name="viewport" content="width=auto, initial-scale=2.0, maximum-scale=2.0, user-scalable=1" />
+
+   <!-- Information site -->
+   <meta property="og:title" content="KappaBird" />
+   <meta property="og:description" content="Play KappaBird" />
+   <meta property="og:type" content="website" />
+   <meta property="og:image" content="http://kappabirdbiscet.github.io/floppybird/assets/thumb.png" />
+   <meta property="og:url" content="http://kappabirdbiscet.github.io/" />
+   <meta property="og:site_name" content="KappaBird" />
+
+   <!-- Style CSS -->
+   <link href="css/reset.css" rel="stylesheet">
+   <link href="css/main.css" rel="stylesheet">
+ </head>
+ <body>
+   <div id="gamecontainer">
+      <div id="gamescreen">
+         <div id="sky" class="animated">
+            <div id="flyarea">
+               <div id="ceiling" class="animated"></div>
+
+   <!-- Area container -->
+   <div id="player" class="bird animated"></div>
+
+   <div id="bigscore"></div>
+
+   <div id="splash"></div>
+
+   <div id="scoreboard">
+      <div id="medal"></div>
+      <div id="currentscore"></div>
+      <div id="highscore"></div>
+      <div id="replay"><img src="assets/replay.png" alt="replay"></div>
+   </div>
+   <!-- Pipes -->
+ </div>
+</div>
+<div id="land" class="animated"><div id="debug"></div></div>
+</div>
+</div>
+<div id="footer">
+<a href="http://www.biscet.github.io/">memes.com</a>
+<a href="https://vk.com/dissonans1985/"></a>
+</div>
+<div class="boundingbox" id="playerbox"></div>
+<div class="boundingbox" id="pipebox"></div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.transit.min.js"></script>
+<script src="js/buzz.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
